@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="1280dp"
+    android:layout_height="670dp"
+    android:background="@drawable/fnd_general" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="132dp"
+        android:layout_height="77dp"
+        android:layout_x="621dp"
+        android:layout_y="517dp"
+        android:text="Ingresar huella" />
+
+    <ImageButton
+        android:id="@+id/ImageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="433dp"
+        android:layout_y="502dp"
+        android:src="@drawable/ic_huella" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="108dp"
+        android:layout_height="165dp"
+        android:layout_x="514dp"
+        android:layout_y="13dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="493dp"
+        android:layout_y="181dp"
+        android:text="@string/txtnombreProyecto"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="121dp"
+        android:layout_y="239dp"
+        android:text="Nombre"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="122dp"
+        android:layout_y="304dp"
+        android:text="Apellidos"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_x="245dp"
+        android:layout_y="237dp"
+        android:ems="10"
+        android:hint="Ingrese su nombre"
+        android:inputType="textPersonName" 
+        
+        
+        />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="95dp"
+        android:layout_y="422dp"
+        android:text="Fecha de nacimiento"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_x="349dp"
+        android:layout_y="422dp"
+        android:ems="10"
+        android:hint="AAAA"
+        android:inputType="number" >
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_x="431dp"
+        android:layout_y="421dp"
+        android:ems="10"
+        android:hint="MM"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_x="516dp"
+        android:layout_y="419dp"
+        android:ems="10"
+        android:hint="DD"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="510dp"
+        android:layout_y="431dp"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="426dp"
+        android:layout_y="432dp"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_x="246dp"
+        android:layout_y="300dp"
+        android:ems="10"
+        android:hint="Ingrese sus apellidos"
+        android:inputType="textPersonName" />
+
+</AbsoluteLayout>
