@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Recicla tu entrada</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_actividad__fragments">Actividad_Fragments</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+</resources>

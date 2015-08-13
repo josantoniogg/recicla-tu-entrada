@@ -1,0 +1,1 @@
+desarrollar una pagina html que permita capturar solamente 10 calificaciones y faltas de los alumnos de iti 9no durate el ingreso debe ir calculando el promedio al promedio de faltas 

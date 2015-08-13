@@ -1,0 +1,26 @@
+[11-Jun-2015 05:35:37 America/Mexico_City] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 26
+[11-Jun-2015 05:36:37 America/Mexico_City] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 26
+[13-Aug-2015 04:16:14 America/Mexico_City] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 21
+[13-Aug-2015 04:16:34 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:16:36 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:16:38 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:16:39 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:17:15 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:17:33 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:17:42 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:17:45 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:20:00 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:21:43 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:21:46 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:21:49 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:22:34 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:22:53 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:22:54 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:22:54 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:22:54 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:22:55 America/Mexico_City] PHP Fatal error:  Call to undefined method funciones_BD::update() in /home/proyec34/public_html/recicladora/conexiones/droidlogin/acces.php on line 18
+[13-Aug-2015 04:39:28 America/Mexico_City] PHP Parse error:  syntax error, unexpected '$hoy' (T_VARIABLE), expecting ',' or ';' in /home/proyec34/public_html/recicladora/conexiones/droidlogin/funciones_bd.php on line 53
+[13-Aug-2015 05:01:53 America/Mexico_City] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/proyec34/public_html/recicladora/conexiones/droidlogin/funciones_bd.php on line 50
+[13-Aug-2015 08:44:49 America/Mexico_City] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/proyec34/public_html/recicladora/conexiones/droidlogin/funciones_bd.php on line 93
+[13-Aug-2015 08:45:26 America/Mexico_City] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/proyec34/public_html/recicladora/conexiones/droidlogin/funciones_bd.php on line 93
+[13-Aug-2015 10:01:15 America/Mexico_City] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/proyec34/public_html/recicladora/conexiones/droidlogin/funciones_bd.php on line 71

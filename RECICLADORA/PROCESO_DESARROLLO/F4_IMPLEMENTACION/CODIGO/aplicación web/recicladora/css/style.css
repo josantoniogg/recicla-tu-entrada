@@ -1,0 +1,174 @@
+#block{
+    width:100%;
+    height:100%;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+    top:0;
+    left:0;
+}
+#popupbox h2{
+    margin-top: -10px;
+    margin:0px;
+    height: 50px;
+    width: 320px;
+    text-align: center;
+    background-color: 2b63a1;
+    border: 2px solid blanchedAlmond;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 5px black;
+    color: white;
+    font-family: Broadway;
+    
+}
+#popupbox{
+    background-image: url("imagenes/fondoOtro.png");
+    display: none;
+    padding: 5px;
+    padding-top: 0px;
+    border: 5px solid #C3D9FF;
+    border-radius: 5px 5px 5px 5px;
+    margin: 20px auto 0 308px;
+    position: absolute;
+    width: 330px;
+    box-shadow:1px 1px 5px black;
+    z-index: 2;
+    font-family: "Century Gothic";
+    font-size: 16;
+    
+}
+.buttonsBar{
+    text-align: right;
+    margin-top: 3px;
+}
+#popupbox label{
+    display: block;
+    float: left;
+    margin-right: 9px;
+    margin-top: 7px;
+    text-align: right;
+    width: 102px;
+}
+a.button {
+    font:20px/36px "Century Gothic";
+    background-color: #92cae4;
+    border:1px solid #205791;
+    color:white;
+    padding:5px;
+    text-decoration: none;
+    box-shadow:1px 1px 5px #011e61;
+    tex-shadow:1px 1px black;
+}
+table{
+    background-image: url("imagenes/FondoTrans.png"); 
+    font:15px/36px "Century Gothic";
+    box-shadow:1px 1px 5px black;
+     /* hack IE8 */
+    border-spacing: 0 \0/;
+    border-collapse: collapse \0/;
+    border-right: 2px inset #D3D3D3 \0/;
+    border-bottom: 2px inset #D3D3D3 \0/;
+     /* hack IE7 */
+    *border-spacing: 0;
+    *border-collapse: collapse;
+    *border-right: 2px inset #D3D3D3;
+    *border-bottom: 2px inset #D3D3D3;
+}
+.bar{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.title{
+    text-align: center;
+    background-color: #2b63a1;
+    border: 2px solid blanchedAlmond;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 5px black;
+    color: white;
+    font-family: Broadway;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    text-shadow: 1px 1px gray;
+}
+body {
+    background-image: url("imagenes/fondoCafe2.png") 
+}
+#cara{
+
+    background-color:#dfaa37;
+    position: fixed;
+    position: absolute;
+    text-shadow: 1px1px #000000;
+    border: 5px solid blue;
+    left:100px;
+    top:100px;
+    height: 600px;
+    width: 1000px;
+    text-align:left;
+    margin-top: 6px;
+    font:16px/36px "Arial";
+    color: #000000;
+    box-shadow: 5px 8px 10px;
+}
+
+#cara2{
+
+    background-color:#dfaa37;
+    position: fixed;
+    position: absolute;
+    text-shadow: 1px1px #000000;
+    border: 5px solid blue;
+    left:100px;
+    top:100px;
+    height: 600px;
+    width: 1000px;
+    text-align:left;
+    margin-top: 6px;
+    font:16px/36px "Arial";
+    color: #000000;
+    box-shadow: 5px 8px 10px;
+}
+
+body {
+    background-image: url("imagenes/fondoCafe2.png") 
+}
+#cara{
+
+    background-color:#dfaa37;
+    position: fixed;
+    position: absolute;
+    text-shadow: 1px1px #000000;
+    border: 5px solid blue;
+    left:100px;
+    top:100px;
+    height: 600px;
+    width: 1000px;
+    text-align:left;
+    margin-top: 6px;
+    font:16px/36px "Arial";
+    color: #000000;
+    box-shadow: 5px 8px 10px;
+}
+
+#cara2{
+
+    background-color:#dfaa37;
+    position: fixed;
+    position: absolute;
+    text-shadow: 1px1px #000000;
+    border: 5px solid blue;
+    left:100px;
+    top:100px;
+    height: 600px;
+    width: 1000px;
+    text-align:left;
+    margin-top: 6px;
+    font:16px/36px "Arial";
+    color: #000000;
+    box-shadow: 5px 8px 10px;
+}

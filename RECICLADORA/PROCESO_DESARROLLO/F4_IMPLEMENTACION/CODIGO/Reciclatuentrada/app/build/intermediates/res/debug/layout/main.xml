@@ -1,0 +1,80 @@
+<LinearLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:id="@+id/layout1"
+          android:background="@drawable/app2a"
+          android:weightSum="1">
+
+
+          <!--  Usuario Label -->
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="270px" />
+
+    <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="5dip"
+               android:text="Usuario"
+              android:textSize="60sp" />
+                
+          <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:id="@+id/edusuario"
+                android:background="@drawable/edittext_rounded_corners"
+
+              android:layout_weight="0.19" />
+                
+          <!--  Password Label -->
+          
+          <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="60sp"
+                android:text="Password"/>
+                
+          <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:password="true"
+                android:id="@+id/edpassword"
+                android:background="@drawable/edittext_rounded_corners"
+
+              android:layout_weight="0.19" />
+
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Iniciar Sesion"
+                android:id="@+id/Blogin"
+              android:layout_weight="0.18"
+              android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:background="#774bca4f" />
+                
+          <!-- Link to Registration Screen -->
+
+    <!-- Link to forgot passw -->
+
+
+</LinearLayout>
+
+
+
+
+
+
+<!-- From: file:/C:/Users/Olakease/Desktop/Reciclatuentrada/app/src/main/res/layout/main.xml -->

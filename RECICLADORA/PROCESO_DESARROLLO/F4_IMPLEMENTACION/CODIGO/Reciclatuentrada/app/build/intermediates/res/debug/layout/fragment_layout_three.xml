@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app2a">
+
+
+    <Button
+        android:layout_width="455dp"
+        android:layout_height="273dp"
+        android:text="Como Contribuyes"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#ffffffff"
+        android:id="@+id/btnvideo"
+        android:background="@drawable/video1"
+        android:layout_x="90dp"
+        android:layout_y="51dp"
+        android:onClick="video"
+        android:textSize="40dp" />
+
+    <Button
+        android:layout_width="455dp"
+        android:layout_height="273dp"
+        android:text="¿Cómo Hacerlo?"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#ff000000"
+        android:id="@+id/btnvideo2"
+        android:textSize="40dp"
+        android:background="@drawable/video2"
+        android:layout_x="672dp"
+        android:layout_y="65dp" />
+
+    <Button
+        android:layout_width="455dp"
+        android:layout_height="273dp"
+        android:id="@+id/btnvideo3"
+        android:layout_x="393dp"
+        android:background="@drawable/video3"
+        android:layout_y="378dp" />
+</AbsoluteLayout><!-- From: file:/C:/Users/Olakease/Desktop/Reciclatuentrada/app/src/main/res/layout/fragment_layout_three.xml -->

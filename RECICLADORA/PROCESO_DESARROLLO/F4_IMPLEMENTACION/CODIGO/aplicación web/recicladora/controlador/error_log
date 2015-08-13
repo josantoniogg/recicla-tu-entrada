@@ -1,0 +1,6 @@
+[11-Jun-2015 08:56:48 America/Mexico_City] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/proyec34/public_html/recicladora/datos/conexion1.php on line 12
+[11-Jun-2015 11:35:58 America/Mexico_City] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/proyec34/public_html/recicladora/datos/conexion1.php on line 43
+[15-Jun-2015 14:51:36 America/Mexico_City] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/proyec34/public_html/recicladora/datos/conexion1.php on line 43
+[15-Jun-2015 14:52:24 America/Mexico_City] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/proyec34/public_html/recicladora/datos/conexion1.php on line 43
+[18-Jun-2015 00:09:35 America/Mexico_City] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/proyec34/public_html/recicladora/datos/conexion1.php on line 43
+[18-Jun-2015 00:43:57 America/Mexico_City] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/proyec34/public_html/recicladora/datos/conexion1.php on line 43

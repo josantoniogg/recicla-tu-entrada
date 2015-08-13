@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app2a">
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <ListView
+        android:id="@+id/listAllProducts"
+        android:layout_width="555dp"
+        android:layout_height="456dp"
+        android:dividerHeight="3dp"
+        android:layout_x="359dp"
+        android:layout_y="136dp" />
+
+</AbsoluteLayout><!-- From: file:/C:/Users/Olakease/Desktop/Reciclatuentrada/app/src/main/res/layout/fragment_layout_two.xml -->
