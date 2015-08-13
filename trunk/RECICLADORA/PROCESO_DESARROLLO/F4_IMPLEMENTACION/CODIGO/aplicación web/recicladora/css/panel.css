@@ -1,0 +1,297 @@
+body {
+    background-image: url("imagenes/fondoCafe5.png");
+        background-attachment:fixed;
+}
+
+#Cuerpo{
+	background-image: url("imagenes/fondoOtro.png"); 
+    position:fixed;
+    top:30px;
+    right:200px;
+    height: 630px;
+    width: 1000px;
+	margin-top: 35px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	text-shadow: 1px1px #000000;
+	border: 5px solid brown;
+    position: absolute;
+    box-shadow: 5px 8px 10px black;
+    z-index: 2;
+}
+
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+background-color:#c2ab7c;
+}
+li
+{
+float:left;
+}
+
+
+a:link,a:visited
+{
+display:block;
+font-family: fantasy;
+font-size: 34px;
+color:#735d66;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+ width:234px;
+height: 200px;
+}
+
+
+#barra{ 
+        width: 500px;
+	    height: 40px;
+        margin: 200; 
+        padding: 10px 0 0 0; 
+        list-style: none; 
+       /* background: #380000; 
+        background: -moz-linear-gradient(#380000, #C0C0C0); 
+    	background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #C0C0C0),color-stop(1, #444)); 
+        background: -webkit-linear-gradient(#380000, #C0C0C0); 
+        background: -o-linear-gradient(#380000, #C0C0C0); 
+        background: -ms-linear-gradient(#380000, #C0C0C0); 
+        background: linear-gradient(#380000, #C0C0C0); */
+        float: right;
+	border-radius: 25px;
+
+} 
+
+#barra li{ 
+        float: left; 
+        padding: 0 0 10px 0; 
+        position: relative; 
+} 
+
+#barra a{ 
+        padding: 0 20px; 
+        text-transform: none; 
+        font: bold 20px/25px "Impact"; 
+        text-decoration: none;
+	
+} 
+
+#barra li:hover > a 
+{ 
+        color: #c2ab7c; 
+} 
+
+
+
+
+#barra ul 
+{ 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    display: none; 
+    position: absolute; 
+    top: 35px; 
+    left: 0; 
+    z-index: 99999; 
+   /* background: #444; 
+    background: -moz-linear-gradient(#444, #111); 
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444)); 
+    background: -webkit-linear-gradient(#444, #111); 
+    background: -o-linear-gradient(#444, #111); 
+    background: -ms-linear-gradient(#444, #111); 
+    background: linear-gradient(#444, #111); */
+    
+} 
+#barra:after 
+{ 
+        visibility: hidden; 
+        display: block; 
+        font-size: 0; 
+        content: " "; 
+        clear: both; 
+        height: 0; 
+} 
+
+.coin-slider {
+	overflow:hidden;
+	zoom:1;
+	position:relative;
+	float:right;
+	width: 1040px;
+	background-repeat: no-repeat;
+}
+.coin-slider a {
+	text-decoration:none;
+	outline:none;
+	border:none;
+	
+}
+
+.cs-buttons {
+	padding:0;
+	font-size:0;
+	float:left;
+}
+.cs-buttons a {
+	margin:0px;
+	width:0px;
+	height:0px;
+	float:top;
+	text-indent:-10000px;
+}
+
+#login {
+    background-image: url("imagenes/fondoLogin.png");
+    background-color:#c2ab7c;
+	left:350px;
+	top:340px;
+	height: 250px;
+	width: 300px;
+	position: fixed;
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	text-shadow: 1px1px #000000;
+	border: 5px solid brown;
+    position: absolute;
+    box-shadow: 5px 8px 10px black;
+    font: 15px/25px "Impact";
+    color: #000000;
+}
+img{
+	width: 30px;
+	height: 30px;}
+	
+#contacto{
+    background-image: url("imagenes/fondoChico.png");
+    background-color:#c2ab7c;
+    position: fixed;
+    position: absolute;
+    text-shadow: 1px1px #000000;
+    border: 5px solid brown;
+    left:170px;
+    top:100px;
+    height: 350px;
+    width: 650px;
+    text-align:center;
+    margin-top: 6px;
+    font:16px/36px "Impact";
+    color: #000000;
+    box-shadow: 5px 8px 10px black;
+    
+}
+
+ul.Menu li    {
+   color:#47170b;
+   font-size:40px;
+   padding:12px 0 12px 85px;
+   margin:14px 0;
+
+}
+
+
+#Servicios{
+    box-shadow:1px 1px 5px black;
+    display:block;
+    width:220px;
+    height: 195px;
+    padding:40px 10px 4px 10px;
+    text-decoration:none;
+    text-align:right;
+    color:#666;
+    background-image:url(Imagenes/IconoServicios.png);
+    border:1px solid #666;
+    background-position:top;
+    margin: 40px;
+}
+
+#Muebles{
+    box-shadow:1px 1px 5px black;
+    display:block;
+    width:220px;
+    height: 195px;
+    padding:40px 10px 4px 10px;
+    text-decoration:none;
+    text-align:right;
+    color:#666;
+    background-image:url(Imagenes/IconoMuebles.png);
+    border:1px solid #666;
+    margin: 40px;
+}
+
+#Cuartos{
+    box-shadow:1px 1px 5px black;
+   display:block;
+    width:220px;
+    height: 195px;
+    padding:40px 10px 4px 10px;
+    text-decoration:none;
+    text-align:right;
+    color:#666;
+    background-image:url(Imagenes/IconoCurtos.png);
+    border:1px solid #666;
+    margin: 40px;
+}
+
+#Usuarios{
+    box-shadow:1px 1px 5px black;
+      display:block;
+    width:220px;
+    height: 195px;
+    padding:40px 10px 4px 10px;
+    text-decoration:none;
+    text-align:right;
+    color:#666;
+    background-image:url(Imagenes/IconoRenta.png);
+    border:1px solid #666;
+    margin: 40px;
+}
+
+#Inquilinos{
+    box-shadow:1px 1px 5px black;
+      display:block;
+    width:220px;
+    height: 195px;
+    padding:40px 10px 4px 10px;
+    text-decoration:none;
+    text-align:right;
+    color:#666;
+    background-image:url(Imagenes/IconoInquilinos.png);
+    border:1px solid #666;
+    margin: 40px;
+}
+
+#Inicio{
+    box-shadow:1px 1px 5px black;
+      display:block;
+    width:220px;
+    height: 195px;
+    padding:40px 10px 4px 10px;
+    text-decoration:none;
+    text-align:right;
+    color:#666;
+    background-image:url(Imagenes/IconoInicio.png);
+    border:1px solid #666;
+    margin: 40px;
+}
+
+.title{
+    background-color:#2b63a1;
+    text-align: center;
+    border: 2px solid blanchedAlmond;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 5px black;
+    color: white;
+    font-family: Broadway;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    text-shadow: 1px 1px gray;
+}

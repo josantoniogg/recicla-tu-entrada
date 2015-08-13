@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="nick"
+        android:id="@+id/single_post_tv_id"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:text="total"
+        android:id="@+id/total"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        android:layout_marginLeft="0dp"
+        android:layout_alignTop="@+id/material"
+        android:layout_toEndOf="@+id/material"
+        android:layout_marginStart="84dp" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <Space
+        android:layout_width="60px"
+        android:layout_height="20px" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="material"
+        android:id="@+id/material"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="71dp" />
+
+
+</RelativeLayout>

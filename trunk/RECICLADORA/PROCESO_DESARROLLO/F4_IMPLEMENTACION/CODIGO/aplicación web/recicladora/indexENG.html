@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Hector izazaga">
+    
+
+    <title>RECICLA TU ENTRADA</title>
+    
+    
+    
+    
+    
+    <link rel="shortcut icon" href="img/im.png" type="image/png" />
+    
+    <link href="css/login.css" rel="stylesheet">
+    
+    <link href="css/jquery.dataTables.css" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+    
+    <link href="css/xxx.CSS" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.4&appId=112797415400839";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</head>
+
+<body>
+
+    <div class="brand"><img src="img/logo.png" width="60" class="logo">Recicla Tu Entrada</div>
+ <!-- <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div> -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Recicla Tu Entrada</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="indexENG.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutENG.html">About us</a>
+                    </li>
+                    <!--<li>
+                        <a href="blog.html">Blog</a>
+                    </li>-->
+                    <li>
+                        <a href="contactENG.html">Contact us</a>
+                    </li>
+                    <li>
+                       <a href="#login-boxENG" class="login-window">Login</a>
+                    </li>
+<li>
+                       <a href="#sub-boxENG" class="login-window">Sign in</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-4.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2 class="brand-before">
+                       <strong><font color="black">Welcome</font></strong>
+                    </h2>
+                    <h1 class="brand-name">Recicla Tu Entrada</h1>
+                    <hr class="tagline-divider">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>Mission</strong>
+                    </h2>
+                    <hr>
+                  <!--  <img class="img-responsive img-border img-left" src="img/vision.png" alt=""> -->
+                    <hr class="visible-xs">
+                    <p>The mission of our project is to provide excellent service using knowledge gained from TSU, for the proper management collection and processing of plastic waste.</p>
+                    <p>Being a socially responsible and influential project through technological innovations linked to its users in the culture of recycling assuring that sustainable development, promoting the protection and improvement of the environment.</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong>Vision </strong>
+                    </h2>
+                    <hr>
+                    <p>Be an alternative to the integrated waste management, acting for the greater good of our university, region and state, providing a cleaner natural environment, a sense of identity and an opportunity for cooperation with the environment for users;</p>
+                    <p>they are recognized for our skills and seeking the welfare of future generations.</p>
+                </div>
+            </div>
+        </div>
+
+    <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+        <p>
+        <hr class="visible-xs">
+<div class="fb-comments" data-href="https://www.facebook.com/ReciclaTuEntrada" data-numposts="5" data-width="auto"></div></div></div></div>
+</p>
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    
+                    
+                   
+				<div class="socialw fadeInDown">  
+  
+    
+<h23>© DERECHOS RESERVADOS | D-SOLUTIONS</h23>
+    <!-- Facebook !-->
+    <a href="https://www.facebook.com/ReciclaTuEntrada" target="_blank">       
+    <div class="social"><img src="http://i.imgur.com/PY2EPRW.png"/></div>
+    </a>
+    <!-- Facebook !-->
+
+    <!-- Twitter !-->
+    <a href="https://twitter.com/Recicla_tu_entr" target="_blank">        
+    <div class="social"> <img src="http://i.imgur.com/ny0pyqt.png"/> </div>
+    </a>
+    <!-- Twitter !-->
+                
+                    
+<div class="idioma">
+                    
+                   <a href="indexENG.html" target="_self">        
+     <img src="img/America.png"/ class="america"> 
+    </a>
+    <a href="index.html" target="_self">        
+     <img src="img/Mexico.png"/ class="america"> 
+    </a>
+                    </div>  
+   
+    </div>
+
+<!-- Social Icons End !-->         
+                    
+                    
+                    
+           
+                   
+        
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                            
+                    
+                </div>
+                
+            </div>
+            
+            
+        </div>
+    </footer>
+    
+    
+    
+    
+    
+    <div id="login-boxENG" class="login-popup">
+<a href="indexENG.html" class="close"><img src="img/close_pop.png" class="btn_close" title="Close Window" alt="Close"  /></a>
+        
+        
+        <form class="signin" name="frmAcceso" id="frmAcceso" method="POST" action="controlador/procesaAccesoUsuariosENG.php" >
+            <fieldset class="textbox">
+            <label class="username">
+            <span>Nickname:</span>
+            <input type="text" name="txtNombre" id="txtNombre" autocomplete="on" placeholder="Username"/>
+            </label>
+            <label class="password">
+            <span>Password:</span>
+            <input type="password" name="txtContrasenia" id="txtContrasenia" placeholder="Password"/>
+                
+            </label>
+            <input type="submit" value="accesar" class="submit button">
+	        </fieldset>
+        
+        
+        
+        
+        
+ <!-- <form method="post" class="signin" action="#">
+      
+        <!--<fieldset class="textbox">
+        <label class="username">
+        <span>Username or email</span>
+        <input id="username" name="username" value="" type="text" autocomplete="on" placeholder="Username">
+        </label>
+        <label class="password">
+        <span>Password</span>
+        <input id="password" name="password" value="" type="password" placeholder="Password">
+        </label>
+        <button class="submit button" type="button">Sign in</button>
+        <p>
+        <a class="forgot" href="#">Forgot your password?</a>
+        </p>        
+        </fieldset>-->
+  </form>
+        
+        
+        
+          
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+</div>
+    
+    <div id="sub-boxENG" class="login-popup">
+<a href="indexENG.html" class="close"><img src="img/close_pop.png" class="btn_close" title="Close Window" alt="Close"  /></a>
+        
+        
+        <form class="signin" name="frmregis" id="frmregis" method="POST" action="logica/registrar.php" >
+            <fieldset class="textbox">
+            <label class="username">
+            <span>Name:</span>
+            <input type="text" name="txtNombre" id="txtNombre" autocomplete="on" placeholder="Nombre"/>
+            </label>
+                
+                <label class="username">
+            <span>Last name:</span>
+            <input type="text" name="txtApa" id="txtApa" autocomplete="on" placeholder="Apellido Paterno"/>
+            </label>
+                
+                
+                <label class="username">
+            <span>Mother's last name:</span>
+            <input type="text" name="txtAma" id="txtAma" autocomplete="on" placeholder="Apellido Materno"/>
+            </label>
+                
+                <label class="username">
+            <span>Gender:</span>
+<select name="txtSex" id="txtSex"><option value="Hombre">Hombre</option><option value="Mujer">Mujer</option></select>
+            </label>
+                
+                <label class="username">
+            <span>Birthdate:</span>
+            <input type="text" name="txtNac" id="txtNac" autocomplete="on" placeholder="Fecha Nacimiento"/>
+            </label>
+                
+                <label class="username">
+            <span>Nickname:</span>
+            <input type="text" name="txtNick" id="txtNick" autocomplete="on" placeholder="Nick"/>
+            </label>
+                
+                
+                <label class="username">
+            <span>Password:</span>
+            <input type="text" name="txtPass" autocomplete="off" id="txtPass" placeholder="Contrasenia"/>
+            </label>
+                
+                
+                
+            </label>
+            <input type="submit" value="registrar" class="submit button" name="enviar">
+	        </fieldset>
+  
+  </form>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="js/jquery-1.6.4.min.js"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+    
+    <script>$(document).ready(function() {
+$('a.login-window').click(function() {
+    
+            //Getting the variable's value from a link 
+    var loginBox = $(this).attr('href');
+
+    //Fade in the Popup
+    $(loginBox).fadeIn(300);
+    
+    //Set the center alignment padding + border see css style
+    var popMargTop = ($(loginBox).height() + 24) / 2; 
+    var popMargLeft = ($(loginBox).width() + 24) / 2; 
+    
+    $(loginBox).css({ 
+        'margin-top' : -popMargTop,
+        'margin-left' : -popMargLeft
+    });
+    
+    // Add the mask to body
+    $('body').append('<div id="mask"></div>');
+    $('#mask').fadeIn(300);
+    
+    return false;
+});
+
+// When clicking on the button close or the mask layer the popup closed
+$('a.close, #mask').live('click', function() { 
+  $('#mask , .login-popup').fadeOut(300 , function() {
+    $('#mask').remove();  
+}); 
+return false;
+});
+});</script>
+    
+    
+ 
+    
+    
+
+</body>
+
+</html>
