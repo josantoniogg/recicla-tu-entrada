@@ -1,0 +1,1 @@
+Contenedor con una pantalla que permita interactuar con el usuario, el cual tendrá  una cuenta.
